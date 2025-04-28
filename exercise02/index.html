@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>TailwindCss Exercise02</title>
+</head>
+
+<body>
+
+    <div class="grid grid-cols-3 gap-3 p-3 text-white ">
+       <div class="bg-blue-400 col-span-full p-3 rounded-[5px]">
+        <h2 class="text-[18px] font-bold">Future Content</h2>
+        <p class="font-body text-xl">This spans across all three colimns</p>
+       </div> 
+       <div class="col-span-2 bg-green-400 p-3 rounded-[5px]">
+        <h2 class="text-[18px] font-bold">Left Section</h2>
+        <p>Takes up 2 columns</p>
+       </div>
+       <div class="col-span-1 bg-green-400 p-3 rounded-[5px]">
+        <h2 class="text-[18px] font-bold">Right section</h2>
+        <p>takes 1 column</p>
+       </div>
+       <div class="bg-fuchsia-500 p-3 rounded-[5px]">
+       <h2 class="text-[18px] font-bold">Column 1</h2>
+       <p>Equal width</p>
+       </div>
+       <div class="bg-fuchsia-500 p-3 rounded-[5px]">
+       <h2 class="text-[18px] font-bold">Column 2</h2>
+       <p>Equal width</p>
+       </div>
+       <div class="bg-fuchsia-500 p-3 rounded-[5px]">
+       <h2 class="text-[18px] font-bold">Column 3</h2>
+       <p>Equal width</p>
+       </div>
+    </div>
+    
+</body>
+</html>
